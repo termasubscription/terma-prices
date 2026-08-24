@@ -1,0 +1,392 @@
+{
+  "_readme": [
+    "Prijslijst van terma. De app haalt dit bestand op bij het opstarten (hoogstens een keer per dag)",
+    "en legt het over de catalogus die met de app meekwam. Zet er alleen AFWIJKINGEN in: elk merk en",
+    "elke formule die je hier niet noemt, blijft staan zoals in src/lib/catalog.ts.",
+    "",
+    "Een prijs wijzigen:  voeg het merk toe met alleen de formules die veranderd zijn.",
+    "Een merk toevoegen:  geef id, name, category en minstens een formule met name + cycle.",
+    "Iets schrappen:      zet \"removed\": true op het merk of op de formule.",
+    "",
+    "Velden: version blijft 1. updated = maand waarin je deze lijst publiceert (yyyy-mm).",
+    "checked = maand waarin je die prijzen echt bij de aanbieder nagekeken hebt.",
+    "price.all geldt voor eurolanden zonder eigen prijs; price.US, price.MX, price.AR, enz. gaan daar",
+    "per land overheen - zie src/lib/countries.ts voor de volledige lijst landcodes.",
+    "Alles wat niet klopt wordt genegeerd, de rest blijft werken - de app valt nooit terug op niets.",
+    "",
+    "Controleren voor je publiceert:  npm run check-feed",
+    "",
+    "Leeg is een geldige staat: dan toont de app precies wat er in src/lib/catalog.ts staat, zoals nu."
+  ],
+  "version": 1,
+  "updated": "2026-08",
+  "generatedAt": "2026-08-23T18:51:59.882Z",
+  "source": "terma",
+  "entries": [
+    {
+      "id": "netflix",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "ads",
+          "price": {
+            "GB": 5.99,
+            "US": 8.99,
+            "MX": 139,
+            "PE": 23.9
+          }
+        },
+        {
+          "id": "basic",
+          "price": {
+            "CL": 7190,
+            "CO": 18900,
+            "all": 10.99
+          }
+        },
+        {
+          "id": "standard",
+          "price": {
+            "all": 16.99,
+            "GB": 12.99,
+            "US": 19.99,
+            "MX": 269,
+            "AR": 21000,
+            "CL": 9990,
+            "CO": 29900
+          }
+        },
+        {
+          "id": "premium",
+          "price": {
+            "all": 21.99,
+            "GB": 18.99,
+            "US": 26.99,
+            "MX": 369,
+            "AR": 28800,
+            "CL": 12990,
+            "CO": 44900,
+            "PE": 52.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "disneyplus",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "standard-ads",
+          "price": {
+            "all": 6.99,
+            "GB": 5.99,
+            "US": 11.99,
+            "AR": 8390.99,
+            "CL": 8490,
+            "CO": 24900
+          }
+        },
+        {
+          "id": "standard",
+          "price": {
+            "all": 10.99,
+            "GB": 9.99,
+            "AR": 9350.99,
+            "CL": 10990,
+            "CO": 36900
+          }
+        },
+        {
+          "id": "standard-year",
+          "price": {
+            "all": 109.9,
+            "GB": 99.9
+          }
+        },
+        {
+          "id": "premium",
+          "price": {
+            "GB": 14.99,
+            "US": 18.99,
+            "AR": 15999,
+            "CL": 15990,
+            "CO": 49900
+          }
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "individual",
+          "price": {
+            "all": 13.99,
+            "GB": 12.99,
+            "US": 12.99,
+            "MX": 139,
+            "CL": 4950,
+            "CO": 18500,
+            "PE": 20.9
+          }
+        },
+        {
+          "id": "duo",
+          "price": {
+            "all": 19.99,
+            "GB": 17.99,
+            "US": 18.99,
+            "MX": 189,
+            "CL": 6750,
+            "CO": 24500,
+            "PE": 26.9
+          }
+        },
+        {
+          "id": "family",
+          "price": {
+            "all": 23.99,
+            "GB": 21.99,
+            "US": 21.99,
+            "MX": 239,
+            "CL": 8250,
+            "CO": 30500
+          }
+        },
+        {
+          "id": "student",
+          "price": {
+            "all": 6.99,
+            "GB": 5.99,
+            "US": 6.99,
+            "MX": 74,
+            "AR": 2299,
+            "CL": 2700,
+            "PE": 11.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "primevideo",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "monthly",
+          "price": {
+            "all": 2.99,
+            "GB": 8.99,
+            "US": 14.99,
+            "MX": 99,
+            "CO": 24900
+          }
+        },
+        {
+          "id": "yearly",
+          "price": {
+            "all": 25,
+            "GB": 95,
+            "US": 139,
+            "MX": 899
+          }
+        }
+      ]
+    },
+    {
+      "id": "appletv",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "standard",
+          "price": {
+            "all": 9.99,
+            "GB": 9.99,
+            "US": 12.99,
+            "MX": 169,
+            "CL": 4990
+          }
+        }
+      ]
+    },
+    {
+      "id": "appleone",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "individual",
+          "price": {
+            "all": 19.95,
+            "GB": 18.95,
+            "US": 19.95,
+            "MX": 249
+          }
+        },
+        {
+          "id": "family",
+          "price": {
+            "all": 25.95,
+            "GB": 24.95,
+            "US": 27.95,
+            "MX": 359
+          }
+        }
+      ]
+    },
+    {
+      "id": "hbomax",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "basic",
+          "price": {
+            "all": 5.99,
+            "GB": 4.99,
+            "US": 10.99,
+            "MX": 149,
+            "CL": 7190,
+            "CO": 13900,
+            "PE": 19.9
+          }
+        },
+        {
+          "id": "standard",
+          "price": {
+            "all": 9.99,
+            "GB": 9.99,
+            "US": 18.49,
+            "MX": 239,
+            "CL": 9590,
+            "CO": 23900,
+            "PE": 31.9
+          }
+        },
+        {
+          "id": "premium",
+          "price": {
+            "all": 13.99,
+            "GB": 14.99,
+            "US": 22.99,
+            "MX": 299,
+            "CL": 11990,
+            "CO": 31900,
+            "PE": 41.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "youtubepremium",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "lite",
+          "price": {
+            "US": 8.99
+          }
+        },
+        {
+          "id": "individual",
+          "price": {
+            "all": 13.99,
+            "GB": 11.99,
+            "US": 15.99,
+            "MX": 159,
+            "AR": 4499,
+            "CO": 22900
+          }
+        },
+        {
+          "id": "family",
+          "price": {
+            "all": 25.99,
+            "GB": 19.99,
+            "US": 26.99,
+            "AR": 10299
+          }
+        },
+        {
+          "id": "student",
+          "price": {
+            "GB": 7.99,
+            "US": 8.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "microsoft365",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "personal",
+          "price": {
+            "all": 99
+          }
+        },
+        {
+          "id": "family",
+          "price": {
+            "all": 129
+          }
+        }
+      ]
+    },
+    {
+      "id": "googleone",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "100gb",
+          "price": {
+            "all": 1.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "plus",
+          "price": {
+            "US": 119.88
+          }
+        }
+      ]
+    },
+    {
+      "id": "adobecc",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "photography",
+          "price": {
+            "all": 24.19
+          }
+        }
+      ]
+    },
+    {
+      "id": "onepassword",
+      "checked": "2026-08",
+      "plans": [
+        {
+          "id": "individual",
+          "price": {
+            "all": 47.88,
+            "US": 47.88
+          }
+        },
+        {
+          "id": "family",
+          "price": {
+            "all": 71.88,
+            "US": 71.88
+          }
+        }
+      ]
+    }
+  ]
+}

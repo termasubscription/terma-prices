@@ -1,0 +1,25 @@
+All Rights Reserved
+
+Copyright (c) 2026 terma
+
+The compilation, selection, arrangement, and structure of the data in this
+repository (catalog.v1.json and any other files here) are protected by
+copyright and, within the European Union, by the sui generis database right
+(Directive 96/9/EC). All rights are reserved.
+
+No permission is granted to copy, redistribute, sell, or reuse this
+compilation, in whole or in substantial part, for any purpose other than:
+
+  - fetching this file at runtime to display current prices inside the
+    terma application itself, or
+  - personal, non-commercial reference by an individual user of terma.
+
+This restriction applies to the compiled dataset as a whole - the selection
+of which brands are included, how they are categorised, and the notes and
+comparison tags attached to them. It does not, and cannot, claim any
+exclusive right over the underlying factual prices themselves: publicly
+available prices are facts, and facts are not subject to copyright anywhere.
+Nothing here prevents anyone from independently looking up and using the
+same real-world prices.
+
+For permission beyond the above, contact the repository owner via GitHub.
