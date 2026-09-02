@@ -19,8 +19,8 @@
     "Leeg is een geldige staat: dan toont de app precies wat er in src/lib/catalog.ts staat, zoals nu."
   ],
   "version": 1,
-  "updated": "2026-08",
-  "generatedAt": "2026-08-24T18:46:14.000Z",
+  "updated": "2026-09",
+  "generatedAt": "2026-09-01T00:00:00.000Z",
   "source": "terma",
   "entries": [
     {
@@ -197,15 +197,15 @@
     },
     {
       "id": "appletv",
-      "checked": "2026-08",
+      "checked": "2026-09",
       "plans": [
         {
           "id": "standard",
           "price": {
             "all": 9.99,
             "GB": 9.99,
-            "US": 12.99,
-            "MX": 169,
+            "US": 14.99,
+            "MX": 199,
             "CL": 4990
           }
         }
@@ -213,14 +213,14 @@
     },
     {
       "id": "appleone",
-      "checked": "2026-08",
+      "checked": "2026-09",
       "plans": [
         {
           "id": "individual",
           "price": {
             "all": 19.95,
             "GB": 18.95,
-            "US": 19.95,
+            "US": 21.95,
             "MX": 249
           }
         },
@@ -237,13 +237,13 @@
     },
     {
       "id": "hbomax",
-      "checked": "2026-08",
+      "checked": "2026-09",
       "plans": [
         {
           "id": "basic",
           "price": {
             "all": 5.99,
-            "BE": 6.99,
+            "BE": 5.99,
             "GB": 4.99,
             "US": 10.99,
             "MX": 149,
@@ -256,7 +256,7 @@
           "id": "standard",
           "price": {
             "all": 9.99,
-            "BE": 10.99,
+            "BE": 9.99,
             "NL": 11.99,
             "GB": 9.99,
             "US": 18.49,
@@ -278,6 +278,42 @@
             "CL": 11990,
             "CO": 31900,
             "PE": 41.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "dazn",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "monthly",
+          "price": {
+            "all": 34.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "crunchyroll",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "megafan",
+          "price": {
+            "all": 11.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "orangebe",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "gopluc",
+          "price": {
+            "BE": 25
           }
         }
       ]
