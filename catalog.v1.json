@@ -403,6 +403,66 @@
           }
         }
       ]
+    },
+    {
+      "id": "stib",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "jaar",
+          "price": {
+            "BE": 560
+          }
+        },
+        {
+          "id": "maand",
+          "price": {
+            "BE": 56
+          }
+        }
+      ]
+    },
+    {
+      "id": "uberone",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "monthly",
+          "price": {
+            "NL": 8.99
+          }
+        },
+        {
+          "id": "yearly",
+          "price": {
+            "NL": 89.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "metal",
+          "price": {
+            "all": 19.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "swapfiets",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "original",
+          "price": {
+            "all": 20.9
+          }
+        }
+      ]
     }
   ]
 }
