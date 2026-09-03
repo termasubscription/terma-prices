@@ -403,6 +403,90 @@
           }
         }
       ]
+    },
+    {
+      "id": "telekomde",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "magenta-s",
+          "price": {
+            "DE": 39.95
+          }
+        }
+      ]
+    },
+    {
+      "id": "vodafonede",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "mobil-m",
+          "price": {
+            "DE": 49.95
+          }
+        }
+      ]
+    },
+    {
+      "id": "einsundeins",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "allnet-m",
+          "price": {
+            "DE": 14.99
+          }
+        },
+        {
+          "id": "allnet-l",
+          "price": {
+            "DE": 19.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "espn",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "select",
+          "price": {
+            "US": 13.99
+          }
+        },
+        {
+          "id": "select-year",
+          "price": {
+            "US": 139.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "samsclub",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "club",
+          "price": {
+            "US": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "digital",
+          "price": {
+            "all": 25
+          }
+        }
+      ]
     }
   ]
 }
