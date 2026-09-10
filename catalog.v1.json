@@ -20,7 +20,7 @@
   ],
   "version": 1,
   "updated": "2026-09",
-  "generatedAt": "2026-09-01T00:00:00.000Z",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
   "source": "terma",
   "entries": [
     {
@@ -362,31 +362,32 @@
     },
     {
       "id": "adobecc",
-      "checked": "2026-08",
+      "checked": "2026-09",
       "plans": [
         {
           "id": "photography",
           "price": {
-            "all": 24.19
+            "all": 24.19,
+            "GB": 19.97
           }
         }
       ]
     },
     {
       "id": "onepassword",
-      "checked": "2026-08",
+      "checked": "2026-09",
       "plans": [
         {
           "id": "individual",
           "price": {
-            "all": 47.88,
+            "all": 43.80,
             "US": 47.88
           }
         },
         {
           "id": "family",
           "price": {
-            "all": 71.88,
+            "all": 69.00,
             "US": 71.88
           }
         }
@@ -400,6 +401,80 @@
           "id": "mobiel",
           "price": {
             "NL": 26.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "pro",
+          "price": {
+            "all": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "premium",
+          "price": {
+            "BE": 9.99,
+            "NL": 10.99
+          }
+        },
+        {
+          "id": "metal",
+          "price": {
+            "BE": 17.99,
+            "NL": 19.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "uberone",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "monthly",
+          "price": {
+            "NL": 8.99
+          }
+        },
+        {
+          "id": "yearly",
+          "price": {
+            "NL": 89.99
+          }
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "pro",
+          "price": {
+            "US": 180
+          }
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "checked": "2026-09",
+      "plans": [
+        {
+          "id": "pro",
+          "price": {
+            "all": 16.99
           }
         }
       ]
